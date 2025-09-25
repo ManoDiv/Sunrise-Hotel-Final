@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunrise Hotel - Rooms & Facilities</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Explore room types and facilities at Sunrise Hotel.">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img class="logo" src="Images/Logo2.png" alt="Sunrise Hotel logo">
+        <p class="name">Sunrise Hotel</p>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <ul id="primary-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="rooms.html">Rooms & Facilities</a></li>
+          <li><a href="dining.html">Dining & Services</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Hamburger menu button removed -->
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <h1>Our Rooms</h1>
+        <div class="grid cols-2">
+          <article class="card">
+            <img src="Images/str.png" alt="Standard Room with cozy bed">
+            <div class="body">
+              <h3 class="title">Standard Room</h3>
+              <p>Comfortable essentials, queen bed, smart TV, and workspace.</p>
+              <p class="price">$90 / night</p>
+              <a class="btn" href="contact.html">Book Now</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="Images/dlr.png" alt="Deluxe Room with city view">
+            <div class="body">
+              <h3 class="title">Deluxe Room</h3>
+              <p>King bed, panoramic city view, rainfall shower.</p>
+              <p class="price">$120 / night</p>
+              <a class="btn" href="contact.html">Book Now</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="Images/fmr.png" alt="Family Room with two beds">
+            <div class="body">
+              <h3 class="title">Family Room</h3>
+              <p>Two double beds, extra seating, complimentary kids' amenities.</p>
+              <p class="price">$150 / night</p>
+              <a class="btn" href="contact.html">Book Now</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="Images/spl.png" alt="Suite">
+            <div class="body">
+              <h3 class="title">Suite</h3>
+              <p>Separate living area, premium minibar, late checkout.</p>
+              <p class="price">$220 / night</p>
+              <a class="btn" href="contact.html">Book Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Facilities">
+      <div class="container">
+        <h2 id="facilities">Facilities</h2>
+        <div class="grid cols-2">
+          <div class="facility">
+            <img src="Images/swp.png" alt="Swimming pool">
+            <div>
+              <h3 class="title">Swimming Pool</h3>
+              <p>Outdoor infinity pool with ocean views.</p>
+            </div>
+          </div>
+          <div class="facility">
+            <img src="Images/ftc.png" alt="Gym">
+            <div>
+              <h3 class="title">Fitness Center</h3>
+              <p>24/7 access with modern equipment and trainers.</p>
+            </div>
+          </div>
+          <div class="facility">
+            <img src="Images/rst.png" alt="Restaurant">
+            <div>
+              <h3 class="title">Restaurant</h3>
+              <p>All-day dining with local and international cuisine.</p>
+            </div>
+          </div>
+          <div class="facility">
+            <img src="Images/spa.png" alt="Spa">
+            <div>
+              <h3 class="title">Spa</h3>
+              <p>Signature treatments and relaxing massages.</p>
+            </div>
+          </div>
+          <div class="facility">
+            <img src="Images/cfh.png" alt="Conference Hall">
+            <div>
+              <h3 class="title">Conference Hall</h3>
+              <p>Modern AV-equipped spaces for events and meetings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <section aria-label="Contact information">
+        <h3 id="contact-info">Contact</h3>
+        <address>
+          327 Galle Rd, Colombo 03<br>
+          Phone: <a href="https://wa.me/+94710918693">+9411 091 8693</a><br>
+          Email: <a href="mailto:mano.div.003@gmail.com?subject=Inquiry%20from%20Website">info@sunrisehotel.com</a>
+        </address>
+      </section>
+      <section aria-label="Social links">
+        <h3 id="social">Follow Us</h3>
+        <ul class="list-inline">
+          <li><a href="https://web.facebook.com/profile.php?id=100080424100856" 
+            aria-label="Facebook">Facebook</a></li>
+          <li><a href="https://www.instagram.com/m.a.n.o.d.y.a_d/" aria-label="Instagram">Instagram</a></li>
+          <li><a href="https://x.com/ManodyaDiv27138" aria-label="X">X</a></li>
+        </ul>
+      </section>
+      <section aria-label="Quick contact form">
+        <h3 id="quick-contact">Quick Contact</h3>
+        <form>
+          <div class="form-control">
+            <label for="qc-name">Name</label>
+            <input id="qc-name" name="name" type="text" required>
+          </div>
+          <div class="form-control">
+            <label for="qc-email">Email</label>
+            <input id="qc-email" name="email" type="email" required>
+          </div>
+          <div class="form-control">
+            <label for="qc-subject">Subject</label>
+            <input id="qc-subject" name="subject" type="text" required>
+          </div>
+          <div class="form-control">
+            <label for="qc-message">Message</label>
+            <textarea id="qc-message" name="message" required></textarea>
+          </div>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </section>
+      <section aria-label="Newsletter subscription">
+        <h3 id="newsletter">Subscribe to Newsletter</h3>
+        <form>
+          <div class="form-control">
+            <label for="news-email" class="visually-hidden">Email</label>
+            <input id="news-email" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+          <button class="btn" type="submit">Subscribe</button>
+          <small class="muted">We respect your privacy.</small>
+        </form>
+      </section>
+    </div>
+  </footer>
+  <script>
+    (function(){
+      var nav = document.querySelector('nav.primary-nav');
+      var btn = nav && nav.querySelector('.menu-toggle');
+      if (!btn) return;
+      btn.addEventListener('click', function(){
+        var isOpen = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', String(isOpen));
+      });
+      nav.addEventListener('click', function(e){
+        var target = e.target;
+        if (target && target.tagName === 'A' && nav.classList.contains('open')) {
+          nav.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunrise Hotel - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Welcome to Sunrise Hotel - luxury rooms, fine dining, and world-class service.">
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img class="logo" src="Images/Logo2.png"
+         alt="Sunrise Hotel logo">
+        <p class="name">Sunrise Hotel</p>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <ul id="primary-menu">
+          <li><a class="" href="index.html">Home</a></li>
+          <li><a href="rooms.html">Rooms & Facilities</a></li>
+          <li><a href="dining.html">Dining & Services</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- Hamburger menu button removed -->
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="bg" style="background:url('Images/bgh.png') center/cover no-repeat;">
+      <div class="bg-content container">
+        <h1>Your Perfect Stay Awaits</h1>
+        <p>Experience comfort, elegance, and heartfelt hospitality by the sunrise.</p>
+        <a class="btn" href="rooms.html">Explore Rooms</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Featured Rooms & Suites</h2>
+        <div class="grid cols-3">
+          <article class="card">
+            <img src="Images/dlr.png" alt="Deluxe Room">
+            <div class="body">
+              <h3 class="title">Deluxe Room</h3>
+              <p>King bed, City view, Complimentary breakfast.</p>
+              <p class="price">$120–$160 / night</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="Images/spl.png" alt="Suite">
+            <div class="body">
+              <h3 class="title">Suite</h3>
+              <p>Spacious living area, Premium amenities, Lounge access.</p>
+              <p class="price">$220–$320 / night</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="Images/fmr.png" alt="Family Room">
+            <div class="body">
+              <h3 class="title">Family Room</h3>
+              <p>Two double beds, Extra sofa bed, Kids welcome pack.</p>
+              <p class="price">$150–$210 / night</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Special offers">
+      <div class="container">
+        <h2 id="offers">Special Offers</h2>
+        <div class="grid cols-2">
+          <article class="card">
+            <img src="Images/s3p2.jpg" alt="Stay 3, Pay 2">
+            <div class="body">
+              <h3 class="title">Stay 3, Pay 2</h3>
+              <p>Enjoy a complimentary night on us when you stay for three nights this month.</p>
+              <a class="btn" href="rooms.html">Book Now</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="Images/rtg.png" alt="Romantic Getaway">
+            <div class="body">
+              <h3 class="title">Romantic Getaway</h3>
+              <p>Suite upgrade, sparkling beverage, and late checkout for couples.</p>
+              <br>
+              <a class="btn" href="rooms.html">View Details</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <section aria-label="Contact information">
+        <h3 id="contact-info">Contact</h3>
+        <address>
+          327 Galle Rd, Colombo 03<br>
+          Phone: <a href="https://wa.me/+94710918693">+9411 091 8693</a><br>
+          Email: <a href="mailto:mano.div.003@gmail.com?subject=Inquiry%20from%20Website">info@sunrisehotel.com</a>
+        </address>
+      </section>
+      <section aria-label="Social links">
+        <h3 id="social">Follow Us</h3>
+        <ul class="list-inline">
+          <li><a href="https://web.facebook.com/profile.php?id=100080424100856" 
+            aria-label="Facebook">Facebook</a></li>
+          <li><a href="https://www.instagram.com/m.a.n.o.d.y.a_d/" aria-label="Instagram">Instagram</a></li>
+          <li><a href="https://x.com/ManodyaDiv27138" aria-label="X">X</a></li>
+        </ul>
+      </section>
+      <section aria-label="Quick contact form">
+        <h3 id="quick-contact">Quick Contact</h3>
+        <form>
+          <div class="form-control">
+            <label for="qc-name">Name</label>
+            <input id="qc-name" name="name" type="text" required>
+          </div>
+          <div class="form-control">
+            <label for="qc-email">Email</label>
+            <input id="qc-email" name="email" type="email" required>
+          </div>
+          <div class="form-control">
+            <label for="qc-subject">Subject</label>
+            <input id="qc-subject" name="subject" type="text" required>
+          </div>
+          <div class="form-control">
+            <label for="qc-message">Message</label>
+            <textarea id="qc-message" name="message" required></textarea>
+          </div>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </section>
+      <section aria-label="Newsletter subscription">
+        <h3 id="newsletter">Subscribe to Newsletter</h3>
+        <form>
+          <div class="form-control">
+            <label for="news-email" class="visually-hidden">Email</label>
+            <input id="news-email" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+          <button class="btn" type="submit">Subscribe</button>
+          <small class="muted">We respect your privacy.</small>
+        </form>
+      </section>
+    </div>
+  </footer>
+  <script>
+    (function(){
+      var nav = document.querySelector('nav.primary-nav');
+      var btn = nav && nav.querySelector('.menu-toggle');
+      if (!btn) return;
+      btn.addEventListener('click', function(){
+        var isOpen = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', String(isOpen));
+      });
+      // Close menu when clicking a link (mobile UX)
+      nav.addEventListener('click', function(e){
+        var target = e.target;
+        if (target && target.tagName === 'A' && nav.classList.contains('open')) {
+          nav.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
